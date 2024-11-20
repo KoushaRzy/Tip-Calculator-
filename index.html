@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Tip-Calculator</title>
+</head>
+<body>
+    <header>
+        Welcome To Online Tip Calculator 
+    </header>
+    <div class="main-div" id="main-div">
+        Bill:<br><input type="number" id="bill" placeholder="Bill Amount" required><br>
+        Tip%:<br><input type="range" id="tip"required min="0" max="100" value="0"><br>
+        <span id="tipValue"></span> 
+        No. Of People:<br><input type="range" id="numpeople"required min="1" max="10000">
+        <span id="peopleValue"></span> 
+
+        <div class="button-div" id="button-div">
+            <div class="span">Tip : </div>
+            <span id="tipAmount"></span>
+            <div class="span">Total : </div>
+            <span id="total"></span>
+            <div class="span">Each person :</div>
+            <span id="person"></span>
+        </div>
+    </div>
+    <button class="button" onclick="calculateTip()">Calculate</button>
+    <button id="AC" onclick="ACFun()">AC</button>
+    <script src="JS/script.js"></script>
+</body>
+</html>

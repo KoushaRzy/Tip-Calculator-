@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+    flex-direction: column;
+}
+header{
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+header:hover{
+    color: aliceblue;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px;
+}
+.main-div{
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 10px;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    color: blueviolet;
+    font-size: large;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+#bill{
+    width: 350px;
+    height: 30px;
+    background-color:whitesmoke;
+    color: blueviolet;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bolder;
+
+}
+.button-div{
+    border: 3px solid blueviolet;
+    border-radius: 15px;
+    padding: 2px;
+    position: relative;
+    top: 10px;
+    color: whitesmoke;
+    background-color: blueviolet;
+    height: 160px;
+}
+button{
+    width: 350px;
+    height: 45px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+    background-color: orange;
+    border: 2px solid orange;
+    color: aliceblue;
+    font-size: x-large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: darkorange;
+    color: black;
+    font-weight: bolder;
+}
+
+#AC{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: red;
+    border: 2px solid red;
+    color: aliceblue;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: bolder;
+    cursor: pointer;
+}
+#AC:hover{
+    background-color: darkred;
+    color: red;
+    font-weight: bolder;
+}
